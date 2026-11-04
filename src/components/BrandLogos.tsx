@@ -1,8 +1,9 @@
 import React from 'react';
+import { IMAGES } from '../assets/images';
 
 /**
  * Logotipo Oficial FOM (Facultad de Odontología Mexicali - UABC)
- * Imagen oficial proporcionada por el usuario: /public/assets/aistudio/descarga_2756a433.png
+ * Utiliza el recurso gráfico oficial importado a través del bundler
  */
 export const FomOfficialLogo: React.FC<{
   className?: string;
@@ -20,7 +21,7 @@ export const FomOfficialLogo: React.FC<{
       {/* Contenedor del Logotipo Oficial FOM proporcionado */}
       <div className="bg-white rounded-xl p-1 shadow-sm border border-slate-200/60 flex items-center justify-center shrink-0">
         <img
-          src="/public/assets/aistudio/descarga_2756a433.png"
+          src={IMAGES.fomLogo}
           alt="Logotipo Oficial FOM - Facultad de Odontología Mexicali UABC"
           className={imgClassName}
           loading="eager"
@@ -113,7 +114,7 @@ export const FomLogoImage: React.FC<{ className?: string; alt?: string }> = ({
 }) => {
   return (
     <img
-      src="/public/assets/aistudio/descarga_2756a433.png"
+      src={IMAGES.fomLogo}
       alt={alt}
       className={className}
       loading="lazy"

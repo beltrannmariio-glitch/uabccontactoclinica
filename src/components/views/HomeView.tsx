@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import { UabcCampusMexicaliLogo, SonrieUabcSymbol } from '../BrandLogos';
 import { DENTAL_TREATMENTS } from '../../data/treatments';
+import { IMAGES } from '../../assets/images';
 
 interface HomeViewProps {
   onNavigate: (view: 'portada' | 'tratamientos' | 'citas' | 'galeria' | 'ubicacion' | 'contacto') => void;
@@ -62,7 +63,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
           {/* Fotografía Real de Consulta Odontológica (Hero) */}
           <div className="relative rounded-2xl overflow-hidden shadow-lg border border-white/20 group">
             <img
-              src="/public/assets/aistudio/images_5bba33e3.jpg"
+              src={IMAGES.clinicaRecepcion}
               alt="Consulta odontológica y recepción de pacientes en la Facultad de Odontología UABC Mexicali"
               className="w-full h-52 sm:h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
             />
@@ -309,7 +310,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
             className="relative h-28 sm:h-36 rounded-2xl overflow-hidden cursor-pointer group shadow-sm border border-slate-200"
           >
             <img
-              src="/public/assets/aistudio/images__1__8726f80d.jpg"
+              src={IMAGES.fachadaCalafia}
               alt="Fachada Clínica Calafia UABC Mexicali"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform"
             />
@@ -325,7 +326,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
             className="relative h-28 sm:h-36 rounded-2xl overflow-hidden cursor-pointer group shadow-sm border border-slate-200"
           >
             <img
-              src="/public/assets/aistudio/images__2__d33f04c8.jpg"
+              src={IMAGES.pediatriaCimarron}
               alt="Atención infantil Pequeño Gran Cimarrón UABC"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform"
             />

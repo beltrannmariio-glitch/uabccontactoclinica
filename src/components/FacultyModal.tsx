@@ -1,6 +1,7 @@
 import React from 'react';
 import { X, GraduationCap, Building2, MapPin, ExternalLink, ShieldCheck } from 'lucide-react';
 import { UabcCampusMexicaliLogo } from './BrandLogos';
+import { IMAGES } from '../assets/images';
 
 interface FacultyModalProps {
   isOpen: boolean;
@@ -43,7 +44,7 @@ export const FacultyModal: React.FC<FacultyModalProps> = ({
           {/* Fotografía Institucional Real del Muro */}
           <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-sm relative group">
             <img
-              src="/public/assets/aistudio/images__3__61fe88a0.jpg"
+              src={IMAGES.muroUabc}
               alt="Muro oficial de la Facultad de Odontología UABC Mexicali con el escudo institucional"
               className="w-full h-48 sm:h-56 object-cover"
             />
@@ -70,7 +71,7 @@ export const FacultyModal: React.FC<FacultyModalProps> = ({
           {/* Segunda Fotografía de Enseñanza y Clínica Calafia */}
           <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-sm relative">
             <img
-              src="/public/assets/aistudio/images__1__8726f80d.jpg"
+              src={IMAGES.fachadaCalafia}
               alt="Instalaciones de Clínica Calafia de la Facultad de Odontología Mexicali"
               className="w-full h-40 object-cover"
             />

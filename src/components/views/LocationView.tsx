@@ -13,6 +13,7 @@ import {
   Building,
   CalendarCheck
 } from 'lucide-react';
+import { IMAGES } from '../../assets/images';
 
 interface LocationViewProps {
   onBookAppointment: () => void;
@@ -51,7 +52,7 @@ export const LocationView: React.FC<LocationViewProps> = ({ onBookAppointment })
       <div className="bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-sm">
         <div className="relative h-56 sm:h-64 overflow-hidden bg-slate-900">
           <img
-            src="/public/assets/aistudio/images__1__8726f80d.jpg"
+            src={IMAGES.fachadaCalafia}
             alt="Fachada oficial de Clínica Calafia de la Facultad de Odontología UABC Mexicali"
             className="w-full h-full object-cover object-center hover:scale-102 transition-transform duration-500"
           />

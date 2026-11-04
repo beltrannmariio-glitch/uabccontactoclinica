@@ -1,3 +1,5 @@
+import { IMAGES } from '../assets/images';
+
 export interface DentalTreatment {
   id: string;
   name: string;
@@ -238,7 +240,7 @@ export const DENTAL_TREATMENTS: DentalTreatment[] = [
       'Limpiezas y restauraciones infantiles con resina',
       'Manejo de hábitos orales (chupón, succión de dedo) y traumatismos',
     ],
-    imageUrl: '/public/assets/aistudio/images__2__d33f04c8.jpg',
+    imageUrl: IMAGES.pediatriaCimarron,
     altText: 'Atención odontopediátrica infantil en UABC Festival Pequeño Gran Cimarrón',
     whenToVisit: [
       'Aparición del primer diente del bebé o al cumplir su primer año de edad',
@@ -348,7 +350,7 @@ export const REAL_FACILITY_PHOTOS: RealFacilityPhoto[] = [
     title: 'Clínica Calafia - Fachada Principal',
     category: 'Instalaciones UABC Mexicali',
     description: 'Edificio oficial de la Clínica Calafia de la Facultad de Odontología UABC en Mexicali, con accesos adaptados y áreas verdes.',
-    imageUrl: '/public/assets/aistudio/images__1__8726f80d.jpg',
+    imageUrl: IMAGES.fachadaCalafia,
     sourceNote: 'Fotografía oficial Clínica Calafia UABC',
     highlight: 'Zotoluca y Chinampas s/n, Fracc. Calafia',
   },
@@ -357,7 +359,7 @@ export const REAL_FACILITY_PHOTOS: RealFacilityPhoto[] = [
     title: 'Muro de Acceso Institucional',
     category: 'Identidad UABC Mexicali',
     description: 'Muro institucional: Universidad Autónoma de Baja California - Facultad de Odontología, con el escudo oficial UABC.',
-    imageUrl: '/public/assets/aistudio/images__3__61fe88a0.jpg',
+    imageUrl: IMAGES.muroUabc,
     sourceNote: 'Acceso representativo Campus Mexicali',
     highlight: 'Facultad de Odontología UABC',
   },
@@ -366,7 +368,7 @@ export const REAL_FACILITY_PHOTOS: RealFacilityPhoto[] = [
     title: 'Sala de Espera y Triaje Clínico',
     category: 'Atención al Paciente',
     description: 'Recepción, ventanillas de servicio y módulo de valoración médica para los pacientes que asisten a consulta en la facultad.',
-    imageUrl: '/public/assets/aistudio/images_5bba33e3.jpg',
+    imageUrl: IMAGES.clinicaRecepcion,
     sourceNote: 'Atención directa a la comunidad mexicalense',
     highlight: 'Lunes a viernes de 8:00 a. m. a 4:00 p. m.',
   },
@@ -375,7 +377,7 @@ export const REAL_FACILITY_PHOTOS: RealFacilityPhoto[] = [
     title: 'Atención Infantil "Pequeño Gran Cimarrón"',
     category: 'Odontopediatría Comunitaria',
     description: 'Actividades de divulgación, prevención bucal y atención cariñosa a niñas y niños en la Facultad de Odontología.',
-    imageUrl: '/public/assets/aistudio/images__2__d33f04c8.jpg',
+    imageUrl: IMAGES.pediatriaCimarron,
     sourceNote: 'Festival Pequeño Gran Cimarrón UABC',
     highlight: 'Cuidado dental infantil sin miedo',
   },
@@ -384,7 +386,7 @@ export const REAL_FACILITY_PHOTOS: RealFacilityPhoto[] = [
     title: 'Emblema FOM Facultad de Odontología',
     category: 'Distintivo de Especialidad',
     description: 'Logotipo distintivo de la Facultad de Odontología Mexicali (FOM) con el caduceo odontológico y lema Ciencia en la Salud Oral.',
-    imageUrl: '/public/assets/aistudio/descarga_2756a433.png',
+    imageUrl: IMAGES.fomLogo,
     sourceNote: 'Emblema de especialidad odontológica',
     highlight: 'Ciencia en la Salud Oral',
   },
