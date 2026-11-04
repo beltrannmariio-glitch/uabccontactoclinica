@@ -1,0 +1,6 @@
+{
+  "name": "Sonríe UABC",
+  "description": "Información y servicios odontológicos de la Facultad de Odontología de la UABC Campus Mexicali.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
