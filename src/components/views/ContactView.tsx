@@ -34,7 +34,7 @@ export const ContactView: React.FC<ContactViewProps> = ({
   const phonePrimary = '686 557 3268';
   const phonePrimaryClean = '6865573268';
   const phoneSwitchboard = '686 557 0334';
-  const emailClinic = 'katherine.limon@uabc.edu.mx';
+  const emailClinic = 'hugo.lopez15@uabc.edu.mx';
   const facebookUrl = 'https://www.facebook.com/facultadde.odontologiamexicali/?locale=es_LA';
   const facebookPhotosUrl = 'https://www.facebook.com/facultadde.odontologiamexicali/photos/';
   const portalUrl = 'https://odontologia.mxl.uabc.mx/odo3/';
@@ -58,7 +58,7 @@ export const ContactView: React.FC<ContactViewProps> = ({
         : `[Consulta Odontología UABC] Información de Atención Clínica - ${patientName || 'Paciente'}`
     );
     const body = encodeURIComponent(
-      `Estimada Dirección de Clínica / Katherine Limón (Facultad de Odontología UABC Mexicali):
+      `Estimada Dirección de Clínica / Hugo López (Facultad de Odontología UABC Mexicali):
 
 Mi nombre es: ${patientName || '[Nombre]'}
 Teléfono de contacto: ${patientPhone || '[Teléfono]'}
@@ -134,7 +134,7 @@ ${patientName || 'Paciente'}`
               {emailClinic}
             </p>
             <span className="text-[10px] text-slate-500 block pt-0.5">
-              Atención directa con Katherine Limón
+              Atención directa con Hugo López
             </span>
           </div>
         </a>
@@ -232,7 +232,7 @@ ${patientName || 'Paciente'}`
               Enviar Consulta por Correo
             </h3>
             <p className="text-xs text-slate-500">
-              Escribe tus dudas y se abrirá tu cliente de correo con los datos dirigidos a katherine.limon@uabc.edu.mx.
+              Escribe tus dudas y se abrirá tu cliente de correo con los datos dirigidos a hugo.lopez15@uabc.edu.mx.
             </p>
           </div>
           <button

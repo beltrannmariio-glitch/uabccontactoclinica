@@ -306,7 +306,7 @@ export const AppointmentModal: React.FC<AppointmentModalProps> = ({
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-500 font-medium">Coordinación de Clínica:</span>
-                  <span className="font-bold text-teal-800">katherine.limon@uabc.edu.mx</span>
+                  <span className="font-bold text-teal-800">hugo.lopez15@uabc.edu.mx</span>
                 </div>
               </div>
 

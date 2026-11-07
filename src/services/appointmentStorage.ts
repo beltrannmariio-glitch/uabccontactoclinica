@@ -39,12 +39,12 @@ export function generateFolio(): string {
 }
 
 export function generateMailtoLink(appointment: Appointment): string {
-  const clinicEmail = 'katherine.limon@uabc.edu.mx';
+  const clinicEmail = 'hugo.lopez15@uabc.edu.mx';
   const subject = encodeURIComponent(
     `[${appointment.folio}] Solicitud de Cita Odontológica - ${appointment.patientName}`
   );
   const body = encodeURIComponent(
-    `Buen día, Dirección de Clínica Odontológica UABC Campus Mexicali (Atención Katherine Limón):
+    `Buen día, Dirección de Clínica Odontológica UABC Campus Mexicali (Atención Hugo López):
 
 Deseo confirmar la siguiente solicitud de cita odontológica generada a través de Sonríe UABC:
 
